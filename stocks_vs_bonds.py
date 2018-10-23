@@ -247,7 +247,7 @@ l25 = ax.plot(years[25:], ret_values_backward[4], color='purple', label='25 year
 l30 = ax.plot(years[30:], ret_values_backward[5], color='gold', label='30 years: %.1f'%(np.median(ret_values_backward[5])), linewidth=1.5)
 nbar = ax.bar(years[neg_rets], rets[neg_rets]/10.0, color='red', edgecolor='none', width=0.8)
 
-ax.set_xlabel('Starting year')
+ax.set_xlabel('Ending year')
 ax.set_ylabel('Returns on $1')
 
 ax.axhline(y=0, color='black')
